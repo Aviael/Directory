@@ -1,0 +1,14 @@
+import os
+
+dirName = input('What directory would you like your file to be stored in? ')
+os.path.isdir('dirName')
+
+fileName = input('What is the name of your file? ')
+
+useInf = input('Please enter your name, address, and phone number. ')
+useInfc = ','.join(useInf)
+
+filepath = 'fileName.txt.'
+with open(filePath, 'w') as fileHandle:
+    fileHandle.write('useInfc')
+os.path.isfile('fileName.txt')
